@@ -3,3 +3,28 @@
   font-weight: 700;
   font-style: normal;
 }
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+body{
+  font-family: "Titillium Web", sans-serif;
+  line-height: 1.6;
+  box-sizing: border-box;
+  color: rgb(227, 227, 227);
+
+}
+.hero{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6)),
+    rgba(0,0,0,.6) ,
+    url('/hero.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
